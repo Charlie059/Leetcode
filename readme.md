@@ -4,14 +4,14 @@
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/597/2938-Solved/Total-blue.svg">
+  <img src="https://img.shields.io/badge/598/2938-Solved/Total-blue.svg">
   <img src="https://img.shields.io/badge/Easy-213-green.svg">
-  <img src="https://img.shields.io/badge/Medium-316-orange.svg">
+  <img src="https://img.shields.io/badge/Medium-317-orange.svg">
   <img src="https://img.shields.io/badge/Hard-68-red.svg">
 </p>
 <h3 align="center">My accepted leetcode solutions</h3>
 <p align="center">
-  <b>Last updated: 2023/02/11 10:43</b>
+  <b>Last updated: 2023/02/11 12:19</b>
   <br>
 </p>
 
@@ -31,13 +31,14 @@ My LeetCode homepage : [charlie-6x - Profile - LeetCode](https://leetcode-cn.com
 # All Accepted Problems
 |  #  | Title |  Title-CN  | Difficulty | Last Submission Time |
 |:---:|:-----:|:-----:|:----------:|:----------:|
+| 1138 | [Alphabet Board Path](problems/alphabet-board-path.md) | [字母板上的路径](problems/alphabet-board-path.md) | ![](./imgs/medium.png) | 2023/02/11 12:18
+| 977 | [Squares of a Sorted Array](problems/squares-of-a-sorted-array.md) | [有序数组的平方](problems/squares-of-a-sorted-array.md) | ![](./imgs/easy.png) | 2023/02/11 11:00
 | 234 | [Palindrome Linked List](problems/palindrome-linked-list.md) | [回文链表](problems/palindrome-linked-list.md) | ![](./imgs/easy.png) | 2023/02/10 23:56
 | 59 | [Spiral Matrix II](problems/spiral-matrix-ii.md) | [螺旋矩阵 II](problems/spiral-matrix-ii.md) | ![](./imgs/medium.png) | 2023/02/10 21:54
 | 2335 | [Minimum Amount of Time to Fill Cups](problems/minimum-amount-of-time-to-fill-cups.md) | [装满杯子需要的最短总时长](problems/minimum-amount-of-time-to-fill-cups.md) | ![](./imgs/easy.png) | 2023/02/10 21:24
 | 3 | [Longest Substring Without Repeating Characters](problems/longest-substring-without-repeating-characters.md) | [无重复字符的最长子串](problems/longest-substring-without-repeating-characters.md) | ![](./imgs/medium.png) | 2023/02/10 16:25
 | 209 | [Minimum Size Subarray Sum](problems/minimum-size-subarray-sum.md) | [长度最小的子数组](problems/minimum-size-subarray-sum.md) | ![](./imgs/medium.png) | 2023/02/10 15:54
 | 1223 | [Dice Roll Simulation](problems/dice-roll-simulation.md) | [掷骰子模拟](problems/dice-roll-simulation.md) | ![](./imgs/hard.png) | 2023/02/10 10:46
-| 977 | [Squares of a Sorted Array](problems/squares-of-a-sorted-array.md) | [有序数组的平方](problems/squares-of-a-sorted-array.md) | ![](./imgs/easy.png) | 2023/02/09 16:08
 | 1233 | [Remove Sub-Folders from the Filesystem](problems/remove-sub-folders-from-the-filesystem.md) | [删除子文件夹](problems/remove-sub-folders-from-the-filesystem.md) | ![](./imgs/medium.png) | 2023/02/08 1:56
 | 79 | [Word Search](problems/word-search.md) | [单词搜索](problems/word-search.md) | ![](./imgs/medium.png) | 2023/02/07 1:08
 | 75 | [Sort Colors](problems/sort-colors.md) | [颜色分类](problems/sort-colors.md) | ![](./imgs/medium.png) | 2023/02/07 0:30

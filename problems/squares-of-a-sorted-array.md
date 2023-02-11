@@ -91,22 +91,28 @@ After sorting, it becomes [0,1,9,16,100].
 
 | Language | Runtime | Memory | Submission Time |
 |:---:|:---:|:---:|:---:|
-| cpp  | 24 ms | 25.1 MB | 2023/02/09 16:08 |
+| javascript  | 100 ms | 47.5 MB | 2023/02/11 11:00 |
 
-```cpp
+```javascript
 
-class Solution {
-public:
-    vector<int> sortedSquares(vector<int>& nums) {
-        const int n = nums.size();
-        int l = 0, r = n - 1, i = n - 1;
-        vector<int> ans(n);
-        while(l <= r){
-            if(abs(nums[l]) > abs(nums[r])) ans[i--] = nums[l] * nums[l++];
-            else  ans[i--] = nums[r] * nums[r--];
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var sortedSquares = function(nums) {
+    const n = nums.length;
+    const ans = new Array(n).fill(0);
+
+    let l = 0, r = n - 1;
+    let i = n - 1;
+    while(l <= r){
+        if(nums[l] * nums[l] > nums[r] * nums[r]){
+            ans[i--] = nums[l] * nums[l++];
+        }else{
+            ans[i--] = nums[r] * nums[r--];
         }
-        return ans;
     }
+    return ans;
 };
 
 ```
